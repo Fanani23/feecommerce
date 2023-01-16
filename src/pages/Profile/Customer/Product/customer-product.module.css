@@ -1,0 +1,139 @@
+.containerNavbar {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+}
+.containerNavbarBody {
+  width: 85%;
+  height: 50px;
+  margin: 25px auto 25px auto;
+  background-color: transparent;
+}
+.containerNavbarInfo {
+  width: 180px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.containerBody {
+  width: 85%;
+  height: auto;
+  margin: 100px auto auto auto;
+}
+.containerBodyBase {
+  width: 100%;
+}
+.containerBodyValue {
+  width: 100%;
+  margin: 140px auto auto auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.containerBVTopLeft {
+  width: 35%;
+}
+.containerBVTopRight {
+  width: 65%;
+}
+.productNameText {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 38px;
+  color: #222222;
+  margin-bottom: 0;
+}
+.productPriceBase {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #9b9b9b;
+  margin-bottom: 0;
+}
+.productPriceText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 45px;
+  color: #222222;
+  margin-bottom: 0;
+}
+.productTotalText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #222222;
+  margin-top: 4px;
+}
+.logoMinus {
+  width: 34px;
+  height: 34px;
+}
+.logoPlus {
+  width: 40px;
+  height: 40px;
+  margin-top: -3px;
+}
+.productBagButton {
+  width: 160px;
+  height: 48px;
+  border: 1.5px solid #222222;
+  background-color: transparent;
+  border-radius: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #222222;
+}
+.productBuyButton {
+  width: 343px;
+  height: 48px;
+  background-color: #db3022;
+  border: transparent;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.productInformation {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 38px;
+  color: #222222;
+}
+.productDescriptionBase {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 27px;
+  color: #222222;
+  margin-bottom: 0;
+}
+.productDescriptionText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9b9b9b;
+}
+.photoDetailProduct {
+  width: 360px;
+  height: 360px;
+  border-radius: 25px;
+}

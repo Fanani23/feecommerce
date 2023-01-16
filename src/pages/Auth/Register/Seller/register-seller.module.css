@@ -1,0 +1,101 @@
+.containerLogin {
+  width: 50%;
+  height: auto;
+  margin: auto auto auto auto;
+}
+.containerForm {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Inter", sans-serif;
+}
+.loginLogo {
+  display: block;
+  margin: 100px auto auto auto;
+}
+.loginText {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222222;
+  text-align: center;
+}
+.loginButtonGroup {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.loginButtonCustomer {
+  width: 120px;
+  height: 48px;
+  border: 1px solid #9b9b9b;
+  background-color: #ffffff;
+  filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+  border-radius: 4px 0px 0px 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9b9b9b;
+}
+.loginButtonSeller {
+  width: 120px;
+  height: 48px;
+  background-color: #db3022;
+  border: transparent;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 0px 4px 4px 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.formInput {
+  width: 70%;
+  margin: auto auto auto auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.forgotText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #db3022;
+  text-align: right;
+  margin-bottom: 0;
+}
+.buttonLogin {
+  width: 100%;
+  margin: auto auto auto auto;
+  height: 48px;
+  background: #db3022;
+  border-radius: 25px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  border: transparent;
+}
+.footTextLeft {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #222222;
+  margin: 40px 0 auto auto;
+}
+.footTextRight {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #db3022;
+  margin: 40px auto auto 0;
+}

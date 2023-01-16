@@ -1,0 +1,155 @@
+.containerNavbar {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+}
+.containerNavbarBody {
+  width: 85%;
+  height: 50px;
+  margin: 25px auto 25px auto;
+  background-color: transparent;
+}
+.containerNavbarInfo {
+  width: 180px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.containerBody {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+}
+.containerBodyBase {
+  width: 85%;
+  margin: 160px auto auto auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.containerBodyLeft {
+  width: 65%;
+}
+.cartTitleText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  color: #222222;
+}
+.cartBodyLeft {
+  width: 45%;
+  height: 150px;
+  box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+  border-radius: 4px;
+}
+.cartBodyLeftValue {
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+.containerBodyRight {
+  width: 35%;
+}
+.productImg {
+  width: 90px;
+  height: 90px;
+  border-radius: 15px;
+}
+.productName {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 50px;
+}
+.totalButtonBase {
+  margin-top: 45px;
+}
+.productTotalText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #222222;
+  margin-top: 4px;
+}
+.logoMinus {
+  width: 34px;
+  height: 34px;
+}
+.logoPlus {
+  width: 40px;
+  height: 40px;
+  margin-top: -3px;
+}
+.productPrice {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 22px;
+  color: #222222;
+  margin-top: 50px;
+}
+.productAction {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #db3022;
+  margin-top: 50px;
+}
+.containerBodyRightValue {
+  width: 90%;
+  height: 180px;
+  box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+  border-radius: 4px;
+  margin-top: 85px;
+}
+.summaryText {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 22px;
+  color: #222222;
+  margin-left: 20px;
+}
+.totalText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #9b9b9b;
+  margin-left: 20px;
+}
+.totalValue {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 25px;
+  color: #222222;
+  margin-right: 20px;
+}
+.cartButton {
+  width: 90%;
+  height: 36px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: transparent;
+  border-radius: 25px;
+  background-color: #db3022;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
