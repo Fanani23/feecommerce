@@ -140,15 +140,25 @@ const SellerProduct = () => {
 
   const [modalProduct, setModalProduct] = useState(false);
   const [modalCategory, setModalCategory] = useState(false);
-  const [modalEditProduct, setModalEditProduct] = useState(false);
+  const [modalEditProduct, setModalEditProduct] = useState({
+    status: false,
+    item_id: null,
+  });
   const [modalEditCategory, setModalEditCategory] = useState(false);
 
   const closeModalProduct = () => setModalProduct(false);
   const openModalProduct = () => setModalProduct(true);
 
-  const closeModalEditProduct = () => setModalEditProduct(false);
-  const openModalEditProduct = () => {
-    setModalEditProduct(true);
+  const closeModalEditProduct = () =>
+    setModalEditProduct({
+      status: false,
+      item_id: null,
+    });
+  const openModalEditProduct = (item_id) => {
+    setModalEditProduct({
+      status: true,
+      item_id,
+    });
   };
 
   const closeModalCategory = () => setModalCategory(false);
@@ -589,12 +599,12 @@ const SellerProduct = () => {
                                 key={item.id}
                                 type="button"
                                 className={style.editProductButton}
-                                onClick={openModalEditProduct}
+                                onClick={() => openModalEditProduct(item.id)}
                               >
                                 Edit
                               </button>
                               <Modal
-                                isOpen={modalEditProduct}
+                                isOpen={modalEditProduct.status}
                                 onRequestClose={closeModalEditProduct}
                                 style={modalStyles}
                               >
