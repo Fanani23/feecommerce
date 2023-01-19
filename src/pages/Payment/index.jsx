@@ -53,8 +53,8 @@ const Payment = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3011/users/profile`;
-    let url2 = `http://localhost:3011/order/detail/${id}`;
+    let url = `${process.env.REACT_APP_BUILD_API}/users/profile`;
+    let url2 = `${process.env.REACT_APP_BUILD_API}/order/detail/${id}`;
     getProfile(url);
     getOrder(url2);
   }, []);
@@ -62,7 +62,10 @@ const Payment = () => {
   const handlePayment = async (e) => {
     e.preventDefault();
     try {
-      await axios.put(`http://localhost:3011/order/status/${id}`, auth);
+      await axios.put(
+        `${process.env.REACT_APP_BUILD_API}/order/status/${id}`,
+        auth
+      );
       Swal.fire("Success", "Payment success", "success");
     } catch (err) {
       console.log(err);

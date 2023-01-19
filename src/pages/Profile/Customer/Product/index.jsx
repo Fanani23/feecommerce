@@ -67,8 +67,8 @@ const CustomerProduct = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3011/users/profile`;
-    let url2 = `http://localhost:3011/products/detail/${id}`;
+    let url = `${process.env.REACT_APP_BUILD_API}/users/profile`;
+    let url2 = `${process.env.REACT_APP_BUILD_API}/products/detail/${id}`;
     getProfile(url);
     getProduct(url2);
   }, [limit, search, sortBy, sortOrder, page]);
@@ -80,7 +80,7 @@ const CustomerProduct = () => {
       amount: qty,
     };
     try {
-      await axios.post(`http://localhost:3011/bag/`, data, auth);
+      await axios.post(`${process.env.REACT_APP_BUILD_API}/bag/`, data, auth);
       Swal.fire("Success", "Success add to bag", "success");
       navigate(`/cart`);
     } catch (err) {

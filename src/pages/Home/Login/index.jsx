@@ -60,8 +60,8 @@ const HomeLogin = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3011/users/profile`;
-    let url2 = `http://localhost:3011/products`;
+    let url = `${process.env.REACT_APP_BUILD_API}/users/profile`;
+    let url2 = `${process.env.REACT_APP_BUILD_API}/products`;
     if (limit !== "5") {
       url2 = `${url2}?limit=${limit}`;
     } else {

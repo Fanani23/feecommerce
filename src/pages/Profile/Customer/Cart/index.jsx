@@ -41,7 +41,7 @@ const CustomerCart = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3011/bag`;
+    let url = `${process.env.REACT_APP_BUILD_API}/bag`;
     getCart(url);
   }, []);
 
@@ -59,8 +59,11 @@ const CustomerCart = () => {
       total: grand,
     };
     try {
-      await axios.post(`http://localhost:3011/order`, data, auth);
-      await axios.delete(`http://localhost:3011/bag/delete/${id_order}`, auth);
+      await axios.post(`${process.env.REACT_APP_BUILD_API}/order`, data, auth);
+      await axios.delete(
+        `${process.env.REACT_APP_BUILD_API}/bag/delete/${id_order}`,
+        auth
+      );
       Swal.fire("Success", "Create order success", "success");
       navigate("/profile-customer/history");
     } catch (err) {

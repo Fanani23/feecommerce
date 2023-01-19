@@ -35,7 +35,7 @@ const SellerSoldOut = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3011/products/sold`;
+    let url = `${process.env.REACT_APP_BUILD_API}/products/sold`;
     if (limit !== "5") {
       url = `${url}?limit=${limit}`;
     } else {

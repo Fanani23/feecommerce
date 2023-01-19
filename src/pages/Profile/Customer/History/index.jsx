@@ -70,8 +70,8 @@ const CustomerHistory = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3011/users/profile`;
-    let url2 = `http://localhost:3011/order`;
+    let url = `${process.env.REACT_APP_BUILD_API}/users/profile`;
+    let url2 = `${process.env.REACT_APP_BUILD_API}/order`;
     getProfile(url);
     getOrder(url2);
   }, []);

@@ -67,8 +67,8 @@ const SellerProduct = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3011/users/profile`;
-    let url2 = `http://localhost:3011/products`;
+    let url = `${process.env.REACT_APP_BUILD_API}/users/profile`;
+    let url2 = `${process.env.REACT_APP_BUILD_API}/products`;
     if (limit !== "5") {
       url2 = `${url2}?limit=${limit}`;
     } else {
@@ -110,9 +110,14 @@ const SellerProduct = () => {
       formData.append("description", description);
       formData.append("photo", photo);
       formData.append("id_toko", id);
-      await axios.post(`http://localhost:3011/products`, formData, auth, {
-        "content-type": "multipart/form-data",
-      });
+      await axios.post(
+        `${process.env.REACT_APP_BUILD_API}/products`,
+        formData,
+        auth,
+        {
+          "content-type": "multipart/form-data",
+        }
+      );
       console.log("Update profile success");
       Swal.fire("Success", "Create product success", "success");
     } catch (err) {
@@ -128,7 +133,9 @@ const SellerProduct = () => {
 
   const deleteProduct = async (id) => {
     try {
-      await axios.put(`http://localhost:3011/products/archive/${id}`);
+      await axios.put(
+        `${process.env.REACT_APP_BUILD_API}/products/archive/${id}`
+      );
       Swal.fire("Success", "Delete product success", "success");
     } catch (err) {
       console.log(err);

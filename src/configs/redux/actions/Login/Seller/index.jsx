@@ -4,7 +4,10 @@ import Swal from "sweetalert2";
 export const loginSeller = (data, navigate) => async (dispatch) => {
   try {
     dispatch({ type: "SELLER_LOGIN_PENDING" });
-    const res = await axios.post(`http://localhost:3011/users/login`, data);
+    const res = await axios.post(
+      `${process.env.REACT_APP_BUILD_API}/users/login`,
+      data
+    );
     const seller = res.data.data;
     const token = seller.token;
     const id = seller.id;

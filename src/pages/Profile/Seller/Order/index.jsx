@@ -62,8 +62,8 @@ const SellerOrder = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3011/users/profile`;
-    let url2 = `http://localhost:3011/order/seller`;
+    let url = `${process.env.REACT_APP_BUILD_API}/users/profile`;
+    let url2 = `${process.env.REACT_APP_BUILD_API}/order/seller`;
     getProfile(url);
     getOrder(url2);
   }, []);
@@ -74,7 +74,7 @@ const SellerOrder = () => {
   };
 
   const updateStatus = async (id) => {
-    await axios.put(`http://localhost:3011/order/status/${id}`);
+    await axios.put(`${process.env.REACT_APP_BUILD_API}/order/status/${id}`);
     Swal.fire("Sucess", "Success", "success");
     getOrder();
   };

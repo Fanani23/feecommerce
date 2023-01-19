@@ -35,7 +35,7 @@ const SellerArchived = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3011/products/archive`;
+    let url = `${process.env.REACT_APP_BUILD_API}/products/archive`;
     if (limit !== "5") {
       url = `${url}?limit=${limit}`;
     } else {

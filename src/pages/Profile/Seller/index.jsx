@@ -40,7 +40,7 @@ const ProfileSeller = () => {
   };
 
   useEffect(() => {
-    let url = `http://localhost:3011/users/profile`;
+    let url = `${process.env.REACT_APP_BUILD_API}/users/profile`;
     getProfile(url);
   }, []);
 
@@ -63,9 +63,14 @@ const ProfileSeller = () => {
       formData.append("phone", phone);
       formData.append("alamat", address);
       formData.append("photo", photo);
-      await axios.put(`http://localhost:3011/users/profile`, formData, auth, {
-        "content-type": "multipart/form-data",
-      });
+      await axios.put(
+        `${process.env.REACT_APP_BUILD_API}/users/profile`,
+        formData,
+        auth,
+        {
+          "content-type": "multipart/form-data",
+        }
+      );
       console.log("Update profile success");
       Swal.fire("Success", "Update profile success", "success");
     } catch (err) {
