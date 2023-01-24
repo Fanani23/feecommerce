@@ -1,70 +1,192 @@
-# Getting Started with Create React App
+<br />
+<p align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">SEED ECOMMERCE APP</h3>
+  <p align="center">
+    <image align="center" width="200" src='./public/demo/logo.png' />
+  </p>
 
-## Available Scripts
+  <p align="center">
+    <br />
+    <a href="https://github.com/Fanani23/fefoodapp.git"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://feecommerce.vercel.app/">View Demo</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Related Project](#related-project)
+- [Screenshot](#screenshot)
+- [Contact](#contact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+SEED Ecommerce App is web base application used to buy or sell some products as marketplace. User as seller can add, edit, and delete product as user want it. And user as customer can view and buy some product what user like. This application built with Node JS and React JS as frontend framework.
+This Application use Rest API server from [seedecommerceapp](https://beecommerce-tan.vercel.app/)
 
-### `npm run build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node JS](https://nodejs.org/en/docs/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is an example of how to list things you need to use the software and how to install them.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [nodejs](https://nodejs.org/en/download/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repo
 
-## Learn More
+```sh
+git clone https://github.com/Fanani23/feecommerce.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install NPM packages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm install
+```
 
-### Code Splitting
+3. Add .env file at root folder project, and add following
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+HOST = https://beecommerce-tan.vercel.app // or use your own
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- CONTRIBUTING -->
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Advanced Configuration
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b your/branch`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/yourbranch`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- SCREENSHOT -->
 
-### Deployment
+## Screenshot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+| Landing Page                                              |
+| --------------------------------------------------------- |
+| ![landing](/public/demo/main.png?raw=true "Landing Page") |
 
-### `npm run build` fails to minify
+| Register Seller Page                                                                 |
+| ------------------------------------------------------------------------------------ |
+| ![register-seller](/public/demo/register-seller.png?raw=true "Register Seller Page") |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Register Customer Page                                                                     |
+| ------------------------------------------------------------------------------------------ |
+| ![register-customer](/public/demo/register-customer.png?raw=true "Register Customer Page") |
+
+| Verification Page                                                           |
+| --------------------------------------------------------------------------- |
+| ![verification](/public/demo/verification.png?raw=true "Verification Page") |
+
+| Login Seller Page                                                           |
+| --------------------------------------------------------------------------- |
+| ![login-seller](/public/demo/login-seller.png?raw=true "Login Seller Page") |
+
+| Login Customer Page                                                               |
+| --------------------------------------------------------------------------------- |
+| ![login-customer](/public/demo/login-customer.png?raw=true "Login Customer Page") |
+
+| Forgot Page                                               |
+| --------------------------------------------------------- |
+| ![forgot](/public/demo/forgot.png?raw=true "Forgot Page") |
+
+| Home Page                                           |
+| --------------------------------------------------- |
+| ![home](/public/demo/home.png?raw=true "Home Page") |
+
+| Profile Seller Page                                                               |
+| --------------------------------------------------------------------------------- |
+| ![profile-seller](/public/demo/profile-seller.png?raw=true "Profile Seller Page") |
+
+| Add Product Seller Page                                                                |
+| -------------------------------------------------------------------------------------- |
+| ![add-product-seller](/public/demo/add-product.png?raw=true "Add Product Seller Page") |
+
+| Edit Product Seller Page                                                                  |
+| ----------------------------------------------------------------------------------------- |
+| ![edit-product-seller](/public/demo/edit-product.png?raw=true "Edit Product Seller Page") |
+
+| Detail Product Seller Page                                                                      |
+| ----------------------------------------------------------------------------------------------- |
+| ![detail-product-seller](/public/demo/detail-product.png?raw=true "Detail Product Seller Page") |
+
+| Product Active Seller Page                                                                      |
+| ----------------------------------------------------------------------------------------------- |
+| ![product-active-seller](/public/demo/product-active.png?raw=true "Product Active Seller Page") |
+
+| Product Sold Seller Page                                                                  |
+| ----------------------------------------------------------------------------------------- |
+| ![product-sold-seller](/public/demo/product-sold.png?raw=true "Product Sold Seller Page") |
+
+| Product Archive Seller Page                                                                         |
+| --------------------------------------------------------------------------------------------------- |
+| ![product-archive-seller](/public/demo/product-archived.png?raw=true "Product Archive Seller Page") |
+
+| Order Seller Page                                                           |
+| --------------------------------------------------------------------------- |
+| ![order-seller](/public/demo/order-seller.png?raw=true "Order Seller Page") |
+
+| Profile Customer Page                                                                   |
+| --------------------------------------------------------------------------------------- |
+| ![profile-customer](/public/demo/profile-customer.png?raw=true "Profile Customer Page") |
+
+| Cart Customer Page                                                             |
+| ------------------------------------------------------------------------------ |
+| ![cart-customer](/public/demo/cart-customer.png?raw=true "Cart Customer Page") |
+
+| Order Customer Page                                                               |
+| --------------------------------------------------------------------------------- |
+| ![order-customer](/public/demo/order-customer.png?raw=true "Order Customer Page") |
+
+| Payment Customer Page                                                          |
+| ------------------------------------------------------------------------------ |
+| ![payment-customer](/public/demo/payment.png?raw=true "Payment Customer Page") |
+
+| History Customer Page                                                                   |
+| --------------------------------------------------------------------------------------- |
+| ![history-customer](/public/demo/history-customer.png?raw=true "History Customer Page") |
+
+| History Customer Detail Page                                                                                 |
+| ------------------------------------------------------------------------------------------------------------ |
+| ![history-customer-detail](/public/demo/history-customer-detail.png?raw=true "History Customer Detail Page") |
+
+<!-- RELATED PROJECT -->
+
+## Related Project
+
+- [`Seed Food App Demo`](https://feecommerce.vercel.app/)
+- [`Seed Food App Rest API`](https://beecommerce-tan.vercel.app/)
+- [`Seed Ecommerce App Rest API Repository`](https://github.com/Fanani23/feecommerce.git)
+
+<!-- CONTACT -->
+
+## Contact
+
+Contributors names and contact info
+
+- AUTHOR
+  - Pramudia Syahrul Fanani [@imoody](https://github.com/Fanani23/)
