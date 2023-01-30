@@ -118,9 +118,9 @@ Contributions are what make the open source community such an amazing place to b
 | --------------------------------------------------- |
 | ![home](/public/demo/home.png?raw=true "Home Page") |
 
-| Profile Seller Page                                                               |
-| --------------------------------------------------------------------------------- |
-| ![profile-seller](/public/demo/profile-seller.png?raw=true "Profile Seller Page") |
+| Profile Seller Page                                                                |
+| ---------------------------------------------------------------------------------- |
+| ![profile-seller](/public/demo/profile-sellerr.png?raw=true "Profile Seller Page") |
 
 | Add Product Seller Page                                                                |
 | -------------------------------------------------------------------------------------- |
@@ -134,25 +134,25 @@ Contributions are what make the open source community such an amazing place to b
 | ----------------------------------------------------------------------------------------------- |
 | ![detail-product-seller](/public/demo/detail-product.png?raw=true "Detail Product Seller Page") |
 
-| Product Active Seller Page                                                                      |
-| ----------------------------------------------------------------------------------------------- |
-| ![product-active-seller](/public/demo/product-active.png?raw=true "Product Active Seller Page") |
+| Product Active Seller Page                                                                       |
+| ------------------------------------------------------------------------------------------------ |
+| ![product-active-seller](/public/demo/product-activee.png?raw=true "Product Active Seller Page") |
 
-| Product Sold Seller Page                                                                  |
-| ----------------------------------------------------------------------------------------- |
-| ![product-sold-seller](/public/demo/product-sold.png?raw=true "Product Sold Seller Page") |
+| Product Sold Seller Page                                                                   |
+| ------------------------------------------------------------------------------------------ |
+| ![product-sold-seller](/public/demo/product-soldd.png?raw=true "Product Sold Seller Page") |
 
-| Product Archive Seller Page                                                                         |
-| --------------------------------------------------------------------------------------------------- |
-| ![product-archive-seller](/public/demo/product-archived.png?raw=true "Product Archive Seller Page") |
+| Product Archive Seller Page                                                                          |
+| ---------------------------------------------------------------------------------------------------- |
+| ![product-archive-seller](/public/demo/product-archivedd.png?raw=true "Product Archive Seller Page") |
 
 | Order Seller Page                                                           |
 | --------------------------------------------------------------------------- |
 | ![order-seller](/public/demo/order-seller.png?raw=true "Order Seller Page") |
 
-| Profile Customer Page                                                                   |
-| --------------------------------------------------------------------------------------- |
-| ![profile-customer](/public/demo/profile-customer.png?raw=true "Profile Customer Page") |
+| Profile Customer Page                                                                    |
+| ---------------------------------------------------------------------------------------- |
+| ![profile-customer](/public/demo/profile-customerr.png?raw=true "Profile Customer Page") |
 
 | Cart Customer Page                                                             |
 | ------------------------------------------------------------------------------ |
@@ -166,9 +166,9 @@ Contributions are what make the open source community such an amazing place to b
 | ------------------------------------------------------------------------------ |
 | ![payment-customer](/public/demo/payment.png?raw=true "Payment Customer Page") |
 
-| History Customer Page                                                                   |
-| --------------------------------------------------------------------------------------- |
-| ![history-customer](/public/demo/history-customer.png?raw=true "History Customer Page") |
+| History Customer Page                                                                    |
+| ---------------------------------------------------------------------------------------- |
+| ![history-customer](/public/demo/history-customerr.png?raw=true "History Customer Page") |
 
 | History Customer Detail Page                                                                                 |
 | ------------------------------------------------------------------------------------------------------------ |
