@@ -88,7 +88,7 @@ Contributions are what make the open source community such an amazing place to b
 
 | Landing Page                                              |
 | --------------------------------------------------------- |
-| ![landing](/public/demo/main.png?raw=true "Landing Page") |
+| ![landing](/public/demo/home.png?raw=true "Landing Page") |
 
 | Register Seller Page                                                                 |
 | ------------------------------------------------------------------------------------ |
@@ -116,7 +116,7 @@ Contributions are what make the open source community such an amazing place to b
 
 | Home Page                                           |
 | --------------------------------------------------- |
-| ![home](/public/demo/home.png?raw=true "Home Page") |
+| ![home](/public/demo/main.png?raw=true "Home Page") |
 
 | Profile Seller Page                                                                |
 | ---------------------------------------------------------------------------------- |
