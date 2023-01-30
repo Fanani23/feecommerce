@@ -134,10 +134,6 @@ Contributions are what make the open source community such an amazing place to b
 | ----------------------------------------------------------------------------------------------- |
 | ![detail-product-seller](/public/demo/detail-product.png?raw=true "Detail Product Seller Page") |
 
-| Product Active Seller Page                                                                       |
-| ------------------------------------------------------------------------------------------------ |
-| ![product-active-seller](/public/demo/product-activee.png?raw=true "Product Active Seller Page") |
-
 | Product Sold Seller Page                                                                   |
 | ------------------------------------------------------------------------------------------ |
 | ![product-sold-seller](/public/demo/product-soldd.png?raw=true "Product Sold Seller Page") |
