@@ -88,7 +88,7 @@ Contributions are what make the open source community such an amazing place to b
 
 | Landing Page                                              |
 | --------------------------------------------------------- |
-| ![landing](/public/demo/home.png?raw=true "Landing Page") |
+| ![landing](/public/demo/main.png?raw=true "Landing Page") |
 
 | Register Seller Page                                                                 |
 | ------------------------------------------------------------------------------------ |
@@ -116,7 +116,7 @@ Contributions are what make the open source community such an amazing place to b
 
 | Home Page                                           |
 | --------------------------------------------------- |
-| ![home](/public/demo/main.png?raw=true "Home Page") |
+| ![home](/public/demo/home.png?raw=true "Home Page") |
 
 | Profile Seller Page                                                                |
 | ---------------------------------------------------------------------------------- |
@@ -134,17 +134,21 @@ Contributions are what make the open source community such an amazing place to b
 | ----------------------------------------------------------------------------------------------- |
 | ![detail-product-seller](/public/demo/detail-product.png?raw=true "Detail Product Seller Page") |
 
-| Product Sold Seller Page                                                                   |
-| ------------------------------------------------------------------------------------------ |
-| ![product-sold-seller](/public/demo/product-soldd.png?raw=true "Product Sold Seller Page") |
+| Product Active Seller Page                                                                      |
+| ----------------------------------------------------------------------------------------------- |
+| ![product-active-seller](/public/demo/product-active.png?raw=true "Product Active Seller Page") |
 
-| Product Archive Seller Page                                                                          |
-| ---------------------------------------------------------------------------------------------------- |
-| ![product-archive-seller](/public/demo/product-archivedd.png?raw=true "Product Archive Seller Page") |
+| Product Sold Seller Page                                                                       |
+| ---------------------------------------------------------------------------------------------- |
+| ![product-sold-seller](/public/demo/product-archivedd.png?raw=true "Product Sold Seller Page") |
 
-| Order Seller Page                                                           |
-| --------------------------------------------------------------------------- |
-| ![order-seller](/public/demo/order-seller.png?raw=true "Order Seller Page") |
+| Product Archive Seller Page                                                                      |
+| ------------------------------------------------------------------------------------------------ |
+| ![product-archive-seller](/public/demo/product-soldd.png?raw=true "Product Archive Seller Page") |
+
+| Order Seller Page                                                            |
+| ---------------------------------------------------------------------------- |
+| ![order-seller](/public/demo/order-sellerr.png?raw=true "Order Seller Page") |
 
 | Profile Customer Page                                                                    |
 | ---------------------------------------------------------------------------------------- |
