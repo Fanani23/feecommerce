@@ -158,9 +158,9 @@ Contributions are what make the open source community such an amazing place to b
 | ------------------------------------------------------------------------------ |
 | ![cart-customer](/public/demo/cart-customer.png?raw=true "Cart Customer Page") |
 
-| Order Customer Page                                                               |
-| --------------------------------------------------------------------------------- |
-| ![order-customer](/public/demo/order-customer.png?raw=true "Order Customer Page") |
+| Order Customer Page                                                                |
+| ---------------------------------------------------------------------------------- |
+| ![order-customer](/public/demo/order-customerr.png?raw=true "Order Customer Page") |
 
 | Payment Customer Page                                                          |
 | ------------------------------------------------------------------------------ |
